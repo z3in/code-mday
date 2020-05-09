@@ -1,0 +1,50 @@
+.container {
+  .ButtonContainer {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    input {
+      border: 0;
+      background: none;
+      width: 60%;
+      font-size: 2rem;
+      border-bottom: 4px solid #004b63;
+      outline: none;
+      font-family: "Montserrat", serif;
+      transition: 1s ease-out;
+    }
+    .invalid {
+      border-bottom: 4px solid #df4545;
+    }
+
+    button {
+      background: #004b63;
+      color: #ffffff;
+      padding: 0.5em 3em;
+      border: 0;
+      border-radius: 4em;
+      margin-top: 1em;
+      outline: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      font-family: "Montserrat", serif;
+    }
+  }
+}
+
+.Show {
+  position: absolute;
+  display: block;
+  top: 70vh;
+  left: 7vw;
+  background: #df4545;
+  padding: 1em 5em;
+  color: #ffffff;
+}
+.Hidden {
+  position: absolute;
+  display: none;
+}

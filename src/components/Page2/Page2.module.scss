@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .svg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+
+  .textMain {
+    display: flex;
+    justify-content: center;
+    font-family: "Ribeye Marrow", cursive;
+    font-size: 3.5rem;
+    margin: 0.1em 0;
+  }
+}
